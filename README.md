@@ -8,14 +8,12 @@
 
 This example is made by [Stephen Damian](https://github.com/s-damian)
 
-## Getting Started
-
-### Requirements
+## Requirements
 
 * PHP >= 8.1
 
 
-### Configuration
+## Configuration
 
 Clone github repository:
 
@@ -54,11 +52,11 @@ php bin/console doctrine:migrations:migrate
 ```
 
 
-### Configuration - Web Server
+## Configuration - Web Server
 
 You have to configure your web server (Linux / Nginx or Apache / MySQL or PostgreSQL / PHP).
 
-### After configuring your Web Server, you can run these demo URLs
+## After configuring your Web Server, you can run these demo URLs
 
 * http://www.your-domain.com/admin/articles
 
@@ -67,9 +65,9 @@ You have to configure your web server (Linux / Nginx or Apache / MySQL or Postgr
 And you can **Create** / **Read** (listing or one article) / **Update** / **Delete** articles.
 
 
-### Configuration - Testing with PHPUnit
+## Configuration - Testing with PHPUnit
 
-#### Prepare the test database
+### Prepare the test database
 
 Create and configure your ```.env.test.local``` file. In this file you need to configure ```DATABASE_URL``` environment variable.
 
@@ -85,7 +83,7 @@ Create the tables/columns int test database:
 php bin/console --env=test doctrine:schema:create
 ```
 
-#### Run the tests
+### Run the tests
 
 Run:
 
