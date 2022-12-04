@@ -4,7 +4,7 @@
 </a>
 </p>
 
-# Example of CRUD with Symfony 6.2
+# Example of CRUD with Symfony 6 (6.2)
 
 This example is made by [Stephen Damian](https://github.com/s-damian)
 
