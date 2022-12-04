@@ -22,7 +22,7 @@ In this example of CRUD, there are:
 * Example of Doctrine Event with **[config/services.yaml](https://github.com/s-damian/symfony-crud-example/tree/main/config/services.yaml)** and **[App/EventListener/ArticleUpdatedListener.php](https://github.com/s-damian/symfony-crud-example/blob/main/src/EventListener/ArticleUpdatedListener.php)** files.
 * Basic validations in **[config/validator/validation.yaml](https://github.com/s-damian/symfony-crud-example/tree/main/config/validator/validation.yaml)** file.
 * Examples of Article templates in **[templates](https://github.com/s-damian/symfony-crud-example/tree/main/templates)** directory.
-* Some basic tests (with PHPUnit) in **[tests](https://github.com/s-damian/symfony-crud-example/tree/main/src/tests)** directory.
+* Some basic tests (with PHPUnit) in **[tests](https://github.com/s-damian/symfony-crud-example/tree/main/tests)** directory.
 
 
 ## Configuration
