@@ -56,7 +56,7 @@ php bin/console doctrine:migrations:migrate
 
 You have to configure your web server (Linux / Nginx or Apache / MySQL or PostgreSQL / PHP).
 
-### After configuring your HTTP server (Nginx), you can run these demo URLs
+### After configuring your Web Server, you can run these demo URLs
 
 * http://www.your-domain.com/admin/articles
 
