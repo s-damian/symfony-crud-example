@@ -1,0 +1,9 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background: #fdfcfc;
+  margin-bottom: 160px; /* Margin bottom by footer height */
+}

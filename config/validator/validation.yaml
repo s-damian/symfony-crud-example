@@ -1,0 +1,16 @@
+App\Entity\Article:
+    constraints:
+        - Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity: slug
+    properties:
+        title:
+            - NotBlank: ~
+            - Length:
+                max: 250
+        slug:
+            - NotBlank: ~
+            - Length:
+                max: 250
+        content:
+            - NotBlank: ~
+            - Length:
+                max: 250

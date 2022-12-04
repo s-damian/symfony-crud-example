@@ -1,0 +1,40 @@
+{% extends 'layouts/admin.html.twig' %}
+
+{% block content %}
+    <h1>Article Listing</h1>
+
+    <div>
+        <a href="{{ path('admin_article_create') }}">Create</a>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for article in articles %}
+                <tr>
+                    <td>
+                        {{ article.title }}
+                    </td>
+                    <td>
+                        <a href="{{ path('admin_article_edit', {id: article.id}) }}">
+                            Edit
+                        </a>
+                        |
+                        <a href="{{ path('admin_article_delete', {id: article.id}) }}">
+                            Delete
+                        </a>
+                        |
+                        <a href="{{ path('blog_show', {slug: article.slug}) }}">
+                            Show
+                        </a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
