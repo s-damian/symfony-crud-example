@@ -11,9 +11,9 @@ use Symfony\Component\EventDispatcher\Attribute\AsEventListener;
 
 final class ArticleUpdatedListener
 {
-    private $logger;
-    
-    public function __construct(LoggerInterface $logger)
+    public function __construct(
+        private LoggerInterface $logger
+    )
     {
         $this->logger = $logger;
     }
