@@ -20,7 +20,7 @@ In this example of CRUD, there are:
 * Examples of Article Controllers
 * Example of Article Entity.
 * Basic validations in ```config/validator/validation.yaml``` file.
-* Examples of article templates
+* Examples of Article templates
 * Some basic tests (with PHPUnit)
 
 
