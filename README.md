@@ -17,7 +17,7 @@ This example is made by [Stephen Damian](https://github.com/s-damian)
 
 In this example of CRUD, there are:
 
-* Examples of Article Controllers in ```src/Controller``` directory.
+* Examples of Article Controllers in [src/Controller](https://github.com/s-damian/symfony-crud-example/tree/main/src/Controller) directory.
 * Example of Article Entity in ```src/Entity``` directory.
 * Example of Doctrine Event with ```config/services.yaml``` and ```App/EventListener/ArticleUpdatedListener``` files.
 * Basic validations in ```config/validator/validation.yaml``` file.
