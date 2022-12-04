@@ -7,7 +7,7 @@ use App\Repository\ArticleRepository;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 
-class ArticleTest extends WebTestCase
+class ArticleControllerTest extends WebTestCase
 {
     public function testIndexClient()
     {
