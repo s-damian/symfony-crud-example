@@ -3,6 +3,7 @@
 namespace App\Controller\Admin;
 
 use App\Entity\Article;
+use App\Service\ActionTexts;
 use App\Form\Type\ArticleFormType;
 use App\Repository\ArticleRepository;
 use Doctrine\Persistence\ManagerRegistry;
@@ -25,7 +26,7 @@ class ArticleController extends AbstractController
     }
 
     #[Route('/admin/articles/create', name: 'admin_article_create', methods: ['GET', 'POST'])]
-    public function create(Request $request, ManagerRegistry $doctrine): Response
+    public function create(Request $request, ManagerRegistry $doctrine, ActionTexts $actionTexts): Response
     {
         $article = new Article();
 
@@ -39,7 +40,7 @@ class ArticleController extends AbstractController
             $entityManager->persist($article);
             $entityManager->flush();
 
-            $this->addFlash('success', 'Articles added.');
+            $this->addFlash('success', $actionTexts->getSuccessCreate());
 
             return $this->redirectToRoute('admin_article_index');
         }
@@ -50,7 +51,7 @@ class ArticleController extends AbstractController
     }
 
     #[Route('/admin/articles/edit/{id}', name: 'admin_article_edit', methods: ['GET', 'POST'])]
-    public function edit(Article $article, Request $request, ManagerRegistry $doctrine): Response
+    public function edit(Article $article, Request $request, ManagerRegistry $doctrine, ActionTexts $actionTexts): Response
     {
         $form = $this->createForm(ArticleFormType::class, $article);
 
@@ -62,7 +63,7 @@ class ArticleController extends AbstractController
             $entityManager->persist($article);
             $entityManager->flush();
 
-            $this->addFlash('success', 'Article updated.');
+            $this->addFlash('success', $actionTexts->getSuccessEdit());
 
             return $this->redirectToRoute('admin_article_edit', ['id' => $article->getId()]);
         }
@@ -73,13 +74,13 @@ class ArticleController extends AbstractController
     }
 
     #[Route('/admin/articles/delete/{id}', name: 'admin_article_delete', methods: ['GET'])]
-    public function delete(Article $article, ManagerRegistry $doctrine): RedirectResponse
+    public function delete(Article $article, ManagerRegistry $doctrine, ActionTexts $actionTexts): RedirectResponse
     {
         $entityManager = $doctrine->getManager();
         $entityManager->remove($article);
         $entityManager->flush();
 
-        $this->addFlash('success', 'Article deleted.');
+        $this->addFlash('success', $actionTexts->getSuccessDelete());
 
         return $this->redirectToRoute('admin_article_index');
     }
