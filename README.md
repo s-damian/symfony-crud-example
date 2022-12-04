@@ -12,7 +12,6 @@ This example is made by [Stephen Damian](https://github.com/s-damian)
 
 * PHP >= 8.1
 
-
 ## Summary
 
 In this example of CRUD, there are:
@@ -24,7 +23,6 @@ In this example of CRUD, there are:
 * Basic **validations** with **[config/validator/validation.yaml](https://github.com/s-damian/symfony-crud-example/tree/main/config/validator/validation.yaml)** file.
 * Examples of Article **templates** in **[templates](https://github.com/s-damian/symfony-crud-example/tree/main/templates)** directory.
 * Some basic **tests** (with PHPUnit) in **[tests](https://github.com/s-damian/symfony-crud-example/tree/main/tests)** directory.
-
 
 ## Configuration - Symfony App
 
@@ -63,7 +61,6 @@ Run migrations:
 ```
 php bin/console doctrine:migrations:migrate
 ```
-
 
 ## Configuration - Web Server
 
