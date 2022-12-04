@@ -14,16 +14,19 @@ final class ActionTexts
 
     public function getSuccessCreate(): string
     {
-        return $this->translator->trans('article.added');;
+        return $this->translator->trans('article.added');
+        ;
     }
 
     public function getSuccessEdit(): string
     {
-        return $this->translator->trans('article.updated');;
+        return $this->translator->trans('article.updated');
+        ;
     }
 
     public function getSuccessDelete(): string
     {
-        return $this->translator->trans('article.deleted');;
+        return $this->translator->trans('article.deleted');
+        ;
     }
 }
