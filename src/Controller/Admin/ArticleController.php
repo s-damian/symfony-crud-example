@@ -3,7 +3,6 @@
 namespace App\Controller\Admin;
 
 use App\Entity\Article;
-use Psr\Log\LoggerInterface;
 use App\Form\Type\ArticleFormType;
 use App\Repository\ArticleRepository;
 use Doctrine\Persistence\ManagerRegistry;
