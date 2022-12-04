@@ -17,13 +17,13 @@ This example is made by [Stephen Damian](https://github.com/s-damian)
 
 In this example of CRUD, there are:
 
-* Examples of Article Controllers in **[src/Controller](https://github.com/s-damian/symfony-crud-example/tree/main/src/Controller)** directory.
-* Example of Article Entity with **[src/Entity/Article.php](https://github.com/s-damian/symfony-crud-example/blob/main/src/Entity/Article.php)** file.
-* Example of Doctrine Event with **[config/services.yaml](https://github.com/s-damian/symfony-crud-example/tree/main/config/services.yaml)** and **[App/EventListener/ArticleUpdatedListener.php](https://github.com/s-damian/symfony-crud-example/blob/main/src/EventListener/ArticleUpdatedListener.php)** files.
-* Example of Service with **[src/Service/ActionTexts.php](https://github.com/s-damian/symfony-crud-example/blob/main/src/Service/ActionTexts.php)** file.
-* Basic validations with **[config/validator/validation.yaml](https://github.com/s-damian/symfony-crud-example/tree/main/config/validator/validation.yaml)** file.
-* Examples of Article templates in **[templates](https://github.com/s-damian/symfony-crud-example/tree/main/templates)** directory.
-* Some basic tests (with PHPUnit) in **[tests](https://github.com/s-damian/symfony-crud-example/tree/main/tests)** directory.
+* Examples of Article **Controllers** in **[src/Controller](https://github.com/s-damian/symfony-crud-example/tree/main/src/Controller)** directory.
+* Example of Article **Entity** with **[src/Entity/Article.php](https://github.com/s-damian/symfony-crud-example/blob/main/src/Entity/Article.php)** file.
+* Example of **Doctrine Event** with **[config/services.yaml](https://github.com/s-damian/symfony-crud-example/tree/main/config/services.yaml)** and **[App/EventListener/ArticleUpdatedListener.php](https://github.com/s-damian/symfony-crud-example/blob/main/src/EventListener/ArticleUpdatedListener.php)** files.
+* Example of **Service** with **[src/Service/ActionTexts.php](https://github.com/s-damian/symfony-crud-example/blob/main/src/Service/ActionTexts.php)** file.
+* Basic **validations** with **[config/validator/validation.yaml](https://github.com/s-damian/symfony-crud-example/tree/main/config/validator/validation.yaml)** file.
+* Examples of Article **templates** in **[templates](https://github.com/s-damian/symfony-crud-example/tree/main/templates)** directory.
+* Some basic **tests** (with PHPUnit) in **[tests](https://github.com/s-damian/symfony-crud-example/tree/main/tests)** directory.
 
 
 ## Configuration
