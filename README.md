@@ -19,6 +19,7 @@ In this example of CRUD, there are:
 
 * Examples of Article Controllers in ```src/Controller``` directory.
 * Example of Article Entity in ```src/Entity``` directory.
+* Example of Doctrine Event with ```config/services.yaml``` and ```App/EventListener/ArticleUpdatedListener``` files.
 * Basic validations in ```config/validator/validation.yaml``` file.
 * Examples of Article templates in ```templates``` directory.
 * Some basic tests (with PHPUnit) in ```tests``` directory.
