@@ -1,0 +1,9 @@
+article:
+  added: Article ajouté.
+  updated: Article modifié.
+  deleted: Article supprimé.
+  back_to_index: Revenir au listage
+  title:
+    index: Listage des articles
+    create: Créer un article
+    edit: Modifier l'article

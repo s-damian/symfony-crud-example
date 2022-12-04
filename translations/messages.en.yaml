@@ -1,0 +1,9 @@
+article:
+  added: Article added.
+  updated: Article updated.
+  deleted: Article deleted.
+  back_to_index: Back to listing
+  title:
+    index: Article listing
+    create: Create article
+    edit: Edit article

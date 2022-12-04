@@ -2,20 +2,28 @@
 
 namespace App\Service;
 
+use Symfony\Contracts\Translation\TranslatorInterface;
+
 final class ActionTexts
 {
+    public function __construct(
+        private TranslatorInterface $translator
+    ) {
+        $this->translator = $translator;
+    }
+
     public function getSuccessCreate(): string
     {
-        return 'Articles added.';
+        return $this->translator->trans('article.added');;
     }
 
     public function getSuccessEdit(): string
     {
-        return 'Articles updated.';
+        return $this->translator->trans('article.updated');;
     }
 
     public function getSuccessDelete(): string
     {
-        return 'Articles deleted.';
+        return $this->translator->trans('article.deleted');;
     }
 }

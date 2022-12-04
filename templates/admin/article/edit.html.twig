@@ -1,11 +1,15 @@
 {% extends 'layouts/admin.html.twig' %}
 
 {% block content %}
-    <h1>Edit Article</h1>
+    <h1>
+        {% trans %}article.title.edit{% endtrans %}
+    </h1>
 
     {{ form(form) }}
 
     <div>
-        <a href="{{ path('admin_article_index') }}">Back to listing</a>
+        <a href="{{ path('admin_article_index') }}">
+            {% trans %}article.back_to_index{% endtrans %}
+        </a>
     </div>
 {% endblock %}
