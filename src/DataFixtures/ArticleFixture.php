@@ -10,7 +10,7 @@ class ArticleFixture extends Fixture
 {
     public function load(ObjectManager $manager): void
     {
-        for ($i=1; $i <= 3; $i++) { 
+        for ($i=1; $i <= 3; $i++) {
             $article = new Article();
             $article->setTitle('Article '.$i);
             $article->setSlug('article-'.$i);
