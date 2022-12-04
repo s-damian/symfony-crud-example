@@ -13,6 +13,17 @@ This example is made by [Stephen Damian](https://github.com/s-damian)
 * PHP >= 8.1
 
 
+## Summary
+
+In this example of CRUD, there are:
+
+* Examples of Article Controllers
+* Example of Article Entity.
+* Basic validations in ```config/validator/validation.yaml``` file.
+* Examples of article templates
+* Some basic tests (with PHPUnit)
+
+
 ## Configuration
 
 Clone github repository:
