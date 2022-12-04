@@ -22,7 +22,7 @@ Clone github repository:
 git@github.com:s-damian/symfony-crud-example.git
 ```
 
-Position yourself in the repository:
+In terminal, position yourself in the ```symfony-crud-example``` repository:
 
 ```
 cd /your_path/symfony-crud-example/
@@ -34,13 +34,13 @@ Create and configure your ```.env.local``` file:
 cp .env.local.example .env.local
 ```
 
-Install dependencies composer:
+Install dependencies with composer:
 
 ```
 composer install
 ```
 
-Create the DB:
+Create the database:
 
 ```
 php bin/console doctrine:database:create
