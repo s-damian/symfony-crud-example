@@ -17,11 +17,11 @@ This example is made by [Stephen Damian](https://github.com/s-damian)
 
 In this example of CRUD, there are:
 
-* Examples of Article Controllers
-* Example of Article Entity.
+* Examples of Article Controllers in ```src/Controller``` directory.
+* Example of Article Entity in ```src/Entity``` directory.
 * Basic validations in ```config/validator/validation.yaml``` file.
-* Examples of Article templates
-* Some basic tests (with PHPUnit)
+* Examples of Article templates in ```templates``` directory.
+* Some basic tests (with PHPUnit) in ```tests``` directory.
 
 
 ## Configuration
@@ -32,7 +32,7 @@ Clone github repository:
 git@github.com:s-damian/symfony-crud-example.git
 ```
 
-In terminal, position yourself in the ```symfony-crud-example``` repository:
+In terminal, position yourself in the ```symfony-crud-example``` directory:
 
 ```
 cd /your_path/symfony-crud-example/
