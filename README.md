@@ -6,7 +6,7 @@
 
 # Example of CRUD with Symfony 6.2
 
-This example is developed by [Stephen Damian](https://github.com/s-damian)
+This example is made by [Stephen Damian](https://github.com/s-damian)
 
 ## Getting Started
 
@@ -62,4 +62,4 @@ You have to configure your web server (Linux / Nginx or Apache / MySQL or Postgr
 
 * http://www.your-domain.com/admin/articles/create
 
-And you can **Create** / **Read** listing or one article / **Update** / **Delete** articles.
+And you can **Create** / **Read** 'listing or one article' / **Update** / **Delete** articles.
