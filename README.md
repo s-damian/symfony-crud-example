@@ -26,7 +26,7 @@ In this example of CRUD, there are:
 * Some basic **tests** (with PHPUnit) in **[tests](https://github.com/s-damian/symfony-crud-example/tree/main/tests)** directory.
 
 
-## Configuration
+## Configuration - Symfony App
 
 Clone github repository:
 
