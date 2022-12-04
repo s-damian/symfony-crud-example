@@ -20,6 +20,6 @@ final class ArticleUpdatedListener
     
     public function postUpdate(Article $article)
     {
-        $this->logger->info('[__Article "'.$article->getTitle().'" Updated__]');
+        $this->logger->info('[Event: Article "'.$article->getTitle().'" Updated]');
     }
 }
