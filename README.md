@@ -62,31 +62,5 @@ You have to configure your web server (Linux / Nginx or Apache / MySQL or Postgr
 
 * http://www.your-domain.com/admin/articles/create
 
-And you can **Create** / **Read** (listing or one article) / **Update** / **Delete** articles.
-
-
-## Configuration - Testing with PHPUnit
-
-### Prepare the test database
-
-Create and configure your ```.env.test.local``` file. In this file you need to configure ```DATABASE_URL``` environment variable.
-
-Create the test database:
-
-```
-php bin/console --env=test doctrine:database:create
-```
-
-Create the tables/columns int test database:
-
-```
-php bin/console --env=test doctrine:schema:create
-```
-
-### Run the tests
-
-Run:
-
-```
-php bin/phpunit
+And you can **Create** / **Read** (listing or one article) / **Update** / **Delete** articles.in/phpunit
 ```
