@@ -62,4 +62,4 @@ You have to configure your web server (Linux / Nginx or Apache / MySQL or Postgr
 
 * http://www.your-domain.com/admin/articles/create
 
-And you can **Create** / **Read** 'listing or one article' / **Update** / **Delete** articles.
+And you can **Create** / **Read** (listing or one article) / **Update** / **Delete** articles.
