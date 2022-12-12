@@ -18,7 +18,7 @@ class ArticleControllerTest extends WebTestCase
         $crawler = $client->request('GET', '/admin/articles');
 
         $this->assertResponseIsSuccessful();
-        $this->assertSelectorTextContains('h1', 'Article Listing');
+        $this->assertSelectorTextContains('h1', 'Article listing');
     }
 
     public function testCreateClient(): void
@@ -30,7 +30,7 @@ class ArticleControllerTest extends WebTestCase
         $crawler = $client->request('GET', '/admin/articles/create');
 
         $this->assertResponseIsSuccessful();
-        $this->assertSelectorTextContains('h1', 'Create Article');
+        $this->assertSelectorTextContains('h1', 'Create article');
     }
 
     public function testEditClientWith404Error(): void

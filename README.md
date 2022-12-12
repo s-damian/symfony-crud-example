@@ -10,7 +10,7 @@ This example is made by [Stephen Damian](https://github.com/s-damian)
 
 ## Requirements
 
-* PHP >= 8.1
+* PHP 8.1 || 8.2
 
 ## Summary
 
@@ -43,6 +43,8 @@ Create and configure your ```.env.local``` file:
 ```
 cp .env.local.example .env.local
 ```
+
+In your ```.env.local``` file, you need to configure ```DATABASE_URL```.
 
 Install dependencies with composer:
 
