@@ -29,7 +29,7 @@ In this example of CRUD, there are:
 Clone github repository:
 
 ```
-git@github.com:s-damian/symfony-crud-example.git
+git clone git@github.com:s-damian/symfony-crud-example.git
 ```
 
 In terminal, position yourself in the ```symfony-crud-example``` directory:
